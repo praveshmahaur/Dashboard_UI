@@ -29,6 +29,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
           // bool isDesktop = constraints.maxWidth >= 1024;
 
           if (isMobile) {
+            print("buildMobileLayout");
             return _buildMobileLayout();
           } else if (isTablet) {
             return _buildTabletLayout();
